@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>PORTFOLIO</title>
+    <script src="https://kit.fontawesome.com/184adb3e77.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <nav>
+      <div class="left"><h1><span class="ma">PO</span>RTFOLIO</h1></div>
+      <div class="right">
+        <ul id="slidemenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#second">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#video-container">Video</a></li>
+          <li><a href="#Photos">Galary</a></li>
+          <li><a href="#audio">Audio</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+      </div>
+    </nav>
+
+    <div id="head">
+      <div class="sec">
+        <div class="leftsec">
+          <h1>
+            Hello Everybody
+            <br />
+            <span class="text1">Nishchay kumar arya</span>
+          </h1>
+          <p>
+            and I'm a <br />
+
+            <span class="text2"></span>
+          </p>
+        </div>
+        <div class="right">
+          <img src="me.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    
+    <hr >
+
+
+    <!--ABOUT PAGE-->
+    <div id="second">
+      <div class="container">
+        <div class="row">
+          <div class="col1">
+            <img src="ay.jpg" alt="">
+          </div>
+          <div class="col2">
+            <h1><span class="text3">AB</span>OUT ME</h1>
+            <p>
+I am from New Delhi, blends expertise in financial trading, and diverse IT roles, showcasing versatility across technologies and industries. Currently pursuing a B.Tech in CSE,I combines a strong educational foundation with hands-on experience in Python Full Stack Development, Android App Development, and Business Development.</p>
+
+                <div class="title">
+                  <p class="links active" onclick="opentab('skills')">SKILLS</p>
+                  <p class="links" onclick="opentab('experience')">EXPERIENCE</p>
+                  <p class="links" onclick="opentab('education')">EDUCATION</p>
+                </div>
+                <div class="content active-content" id="skills">
+                  <ul>
+                    <li><span>Web-Development</span><br>Frontend Developer</li>
+                    <li><span>Editing</span><br>Photo and Video Editing</li>
+                    <li><span>Coding</span><br>C & C++</li>
+                  </ul>
+                </div>
+                <div class="content" id="experience">
+                  <ul>
+                    <li><span>Web-Developer</span><br>Frontend Developer at Blackcoffer</li>
+                    <li><span>Editing</span><br>Photoshop</li>
+                    <li><span>Problem setter</span><br>at Codechef and Hackerank </li>
+                  </ul>
+                </div>
+                <div class="content" id="education">
+                  <ul>
+                    <li><span>HIGH SCHOOL</span><br>From Seth M.R. Jaipuria public school (2020)</li>
+                    <li><span>INTERMEDIATE</span><br>From Ayodhya Academy (2022)</li>
+                    <li><span>B tech IT</span><br>From MMMUT (2022-23)</li>
+                    <li><span>B tech CSE</span><br>From Du-FoT (2023-2027)</li>
+                  </ul>
+                </div>
+          </div>
+
+        </div>
+
+      </div>
+      
+    </div>
+    <hr>
+
+
+    <!--SERVICES-->
+    <div id="services">
+      <div class="in">
+        <h1><span class="text4">MY</span> SERVICES</h1>
+        <div class="services-list">
+          <div>
+            <!-- <i class="fa-solid fa-code"></i> -->
+            <i class="fa-brands fa-html5"></i>
+            <h2>WEB DESIGN</h2>
+            <br>
+            <p>creating and arranging visual elements on a website, focusing on aesthetics, usability, and user experience to ensure a            seamless and visually appealing interaction for visitors. It encompasses various disciplines such as graphic design, layout design, and user interface design to craft engaging and effective online platforms.</a>
+            
+              
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>CODING</h2>
+            <br>
+            <p>translating human-readable instructions into machine-executable commands, enabling the development of software, websites, and applications. It involves writing and structuring lines of code using programming languages to instruct computers in performing specific tasks and functions.</a>
+            
+              
+          </div>
+          <div>
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <h2>EDITNG</h2>
+            <br>
+            <p>refining and improving content, whether it be text, images, or videos, to enhance clarity, quality, and overall impact. It involves careful review, correction, and sometimes creative adjustments to achieve the desired final result.</a>
+            
+              
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <hr>
+
+
+    <!--MY WORKS-->
+    <div id="works">
+      <div class="container4">
+        <h1><span class="text4">MY</span> WORKS</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="box1.jpeg" alt="">
+            <div class="layer">
+              <h3>Raftor</h3>
+              <p>With team to design & build a high-performance 2-stroke go-kart</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="box2.png" alt="" >
+            <div class="layer">
+              <h3>Drone</h3>
+              <p>I have buid a RC fixed wing drone.</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="box3.jpg" alt="">
+            <div class="layer">
+              <h3>IP CAM</h3>
+              <p>I have buid a mini IP wireless camera</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="box4.png" alt="" >
+            <div class="layer">
+              <h3>Attendance Tracker</h3>
+              <p>Student attendance tracker with smart class-bunk suggestions</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="box5.jpg" alt="" >
+            <div class="layer">
+              <h3>Spider Robot</h3>
+              <p>Ardiuno and raspberry pi zero based siper robot</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+
+        </div>
+        <a href="index2.html" class="btn">See More</a>
+
+      </div>
+
+    </div>
+    <hr>
+    <!-- VIDEO SECTION -->
+    <div id="video-container">
+        <section id="video-section">
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <div id="Video-text-section">
+            <h2>1min Landscape Video</h2>
+            <hr>
+        </div>
+    </div>
+  <hr>
+
+
+    <hr>
+    <!--AUDIO-->
+<div id="audio">
+  <div id="audio-section">
+    <div class="audio-text">
+      <h2 style="color: white; text-align: center;">Audio Clip About Me</h2>
+    </div>
+    <div class="audio-container">
+      <audio controls>
+        <source src="your_audio.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+      </audio>
+    </div>
+  </div>
+</div>
+    <hr>
+
+  <!--GALARY OF 10 PHOTOS-->
+    <div id="Photos">
+  <section id="gallery">
+    <h2>My Gallery</h2>
+    <!-- Display 10 photographs in landscape mode -->
+    <div class="photo-gallery">
+      <!-- Include 10 images here -->
+      <img src="photo1.jpg" alt="Photo 1">
+      <!-- ... Repeat for other photos ... -->
+    </div>
+  </section>
+  <hr>
+
+    <!--CONTACT ME-->
+
+    <div id="contact-me">
+      <div class="container5">
+        <div class="rows">
+          <div class="contact-left">
+            <h1>CONTACT<span class="text5"> ME</span></h1>
+            <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>Contact : anilkumar1176@ce.du.ac.in </p>
+            <br><br>
+            <p><i class="fa-solid fa-phone"></i>9648021320</p>
+            <div class="icons">
+              <a href="mailto:anilkumar1176@ce.du.ac.in"><i class="fa-solid fa-envelope"></i></a>
+              <a href="https://www.instagram.com/hoeless_nish/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/nish009/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+              
+
+            </div>
+            <a href="resume.pdf" class="btn btn2">DOWNLOAD RESUME</a>
+
+
+          </div>
+          <div class="contact-right">
+            <form action="">
+              <input type="name" placeholder="Your name" id="" required>
+              <input type="email" name="" placeholder="Your Email" id="" required> 
+              <textarea name="message" id="" cols="" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2" >SUBMIT</button>
+
+            </form>
+          </div>
+        </div>
+       
+
+
+      </div>
+      <div class="copyright">
+        <p> Copyright ©️ Nish <i class="fa-solid fa-heart"></i> by Nish</p>
+
+      </div>
+
+    </div>
+
+    
+    <script>
+      var tablinks=document.getElementsByClassName("links");
+      var tabcontents=document.getElementsByClassName("content");
+      function opentab(tabname){
+        for(link of tablinks){
+          link.classList.remove("active");
+        }
+        for(content of tabcontents){
+          content.classList.remove("active-content");
+        }
+
+        event.currentTarget.classList.add("active");
+        document.getElementById(tabname).classList.add("active-content");
+
+
+
+
+
+      }
+
+      
+
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    
+  <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('.text2', {
+            strings: ['Frontend-Web Developer.', 'Coding Enthusiast.', 'Editor.'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script>
+        var slidemenu = document.getElementById("slidemenu");
+        function openmenu() {
+            slidemenu.style.top = "0";
+        }
+        function closemenu() {
+            slidemenu.style.top = "-150px";
+        }
+    </script>
+</body>
+</html>
