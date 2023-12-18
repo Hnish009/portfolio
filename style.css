@@ -299,7 +299,7 @@ video {
   background-color: rgb(0, 0, 33); 
   color: #fff;
   box-sizing: border-box;
-  text-align: right; /* Align content to the right */
+  text-align: right;  
 }
 
 .audio-container h2,
@@ -322,7 +322,7 @@ video {
       }
       .photo-gallery {
         display: flex;
-        gap: 10px; /* Adjust the gap as needed */
+        gap: 10px;  
         justify-content: center;
       }
       .photo-gallery img {
@@ -440,6 +440,14 @@ video {
     background-color:rgb(161, 98, 163) ;
 }
 
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('.text2', {
+        strings: ['Dyslexic.', 'Mogger', 'Playboi(3monthbaad)'],
+        typeSpeed: 50,
+        loop: true,  
+    });
+</script>
 
 
 
